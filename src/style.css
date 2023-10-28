@@ -1,0 +1,124 @@
+/* body{
+     background-color: black; 
+} */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-color: black;
+}
+.lefthead>div{
+    display: flex;
+    align-items: center;
+}
+.lefthead>div>*{
+    margin-right: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-inline :50px;
+    color: white;
+}
+.lefthead{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    justify-content: center;
+}
+.lefthead>*{
+    padding: 10px;
+}
+.righthead{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right:20px ;
+}
+.righthead>*{
+    padding: 15px;
+}
+textarea{
+    margin-top: 10px;
+    width: 80%;
+    height: 200px;
+    border: none;
+    font-size: 20px;
+   resize: none;
+   background-color: black;
+   color: azure;
+}
+.righthead span{
+  cursor: pointer;
+}
+.inputfield{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+textarea::placeholder {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+  textarea:focus{
+    outline: none;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons>*{
+   margin-bottom: 10px;
+  }
+  button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .line-buttons>*{
+    margin-inline: 5px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 50px;
+  }
+  .options{
+   margin-top: 5px;
+  }
+  #stickybutton{
+   display: flex;
+   align-items: center;
+   background-color: bisque;
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+  }
+  .options{
+    background-color: aqua;
+    margin-top: 15px;
+    position: absolute;
+    top: 43%;
+    padding-inline: 5px;
+    border-radius: 5px;
+  }
+  .options>*{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .icons>*{
+     color: blueviolet;
+     margin-inline: 5px;
+  }
+  .options>*:hover{
+    background-color: azure;
+  }
+  #refreshicon{
+    color: white;
+
+  }
