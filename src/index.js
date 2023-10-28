@@ -1,5 +1,5 @@
 import react from "react";
-import reactDom from "react-dom";
+import reactDom from "react-dom/client";
 import "./style.css"
 import App from "./App";
 import SignInContextProvider from "./Context/SignInContextProvider";
